@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.quote-card {
+  @apply bg-white shadow-md rounded-lg p-6 border border-gray-200 transition-transform duration-300 hover:shadow-lg hover:scale-102;
+}
+
+.quote-text {
+  @apply text-lg text-gray-800 italic mb-4;
+}
+
+.quote-author {
+  @apply text-sm text-right text-gray-600 font-semibold;
+}
+
+.btn {
+  @apply px-4 py-2 rounded font-medium focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500;
+}
+
+.btn-secondary {
+  @apply bg-gray-600 text-white hover:bg-gray-700 focus:ring-gray-500;
+} 
