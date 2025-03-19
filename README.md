@@ -5,6 +5,8 @@
 - Laravel 10+ / 11+ / 12+
 - Node.js and NPM (for Vue.js UI development)
 
+## Note: If you need to run only the quote package in your Laravel project, you will find another readme in the package directory.
+
 ## Installation and run server
  
 ### 0.
@@ -66,5 +68,4 @@ npm run dev
 
 ### 4. Open http://localhost:5173/quotes-ui/ in your browser to test the package with the UI
 
-
-### Note: If you need to run only the quote package in your Laravel project in the package directory is another Readme
+## Note: If you need to run only the quote package in your Laravel project, you will find another readme in the package directory.
