@@ -1,4 +1,3 @@
-
 ## Requirements
 
 - PHP 8.2+
@@ -9,31 +8,31 @@
 
 ## Installation and run server
  
-### 0.
+### 0. Install PHP dependencies
 
 ```bash
 composer install
 ```
 
-### 1.
+### 1. Create environment configuration file
 
 ```bash
 cp .env.example .env
 ```
 
-### 2. 
+### 2. Create SQLite database file
 
 ```bash
 touch database/database.sqlite
 ```
 
-### 3.
+### 3. Run database migrations
 
 ```bash
 php artisan migrate
 ```
 
-### 4. 
+### 4. Start the Laravel development server
 
 ```bash
 php artisan serve
@@ -42,25 +41,25 @@ php artisan serve
 ## Installation and run UI
 
  
-### 0. In a another terminal go to packages/quotes/resources/js directory
+### 0. Navigate to the UI directory
 
 ```bash
 cd packages/quotes/resources/js
 ```
 
-### 1.
+### 1. Install JavaScript dependencies
 
 ```bash
 npm install
 ```
 
-### 2. 
+### 2. Build the UI assets for production
 
 ```bash
 npm build
 ```
 
-### 3.
+### 3. Start the UI development server
 
 ```bash
 npm run dev
